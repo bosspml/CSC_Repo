@@ -13,6 +13,9 @@ import Signup from "./components/pages/registerPage";
 import PrivateUserProfile from "./components/pages/privateUserProfilePage";
 import { createContext, useState, useEffect } from "react";
 import getUserInfo from "./utilities/decodeJwt";
+import MbtaAlertsPage from "./components/pages/mbtaAlerts";
+import NewMbtaAlertsPage from "./components/pages/MBTACustom";
+import BusSearch from "./components/pages/busSearch";
 
 export const UserContext = createContext();
 //test change
@@ -34,6 +37,9 @@ const App = () => {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route path="/privateUserProfile" element={<PrivateUserProfile />} />
+          <Route exact path="/mbtaAlerts" element={<MbtaAlertsPage />} />
+          <Route exact path="/mbtaCustom" element={<NewMbtaAlertsPage />} />
+          <Route exact path="/busSearch" element={<BusSearch />} />
         </Routes>
       </UserContext.Provider>
     </>
