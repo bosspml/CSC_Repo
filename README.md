@@ -1,6 +1,8 @@
 # mern-user-skeleton
 This MERN stack implementation creates a small web application that lets users register, login, view a home page, and logout. 
 
+New "Consensus" game, a fast-paced prediction quiz game built around live Polymarket data. Players are shown a question and two possible outcomes, then must choose which one currently has the higher market probability before the timer runs out. Each correct answer earns points, while a wrong answer or timeout ends the round. The game is designed to feel like a lightweight game-show experience, using real-time prediction market sentiment to turn current events into interactive gameplay.
+
 Configuration
 -------------
 Under users/server/create .env file that looks similar to this:
