@@ -16,6 +16,7 @@ import getUserInfo from "./utilities/decodeJwt";
 import MbtaAlertsPage from "./components/pages/mbtaAlerts";
 import NewMbtaAlertsPage from "./components/pages/MBTACustom";
 import BusSearch from "./components/pages/busSearch";
+import ConsensusPage from "./components/pages/ConsensusPage";
 
 export const UserContext = createContext();
 //test change
@@ -40,6 +41,7 @@ const App = () => {
           <Route exact path="/mbtaAlerts" element={<MbtaAlertsPage />} />
           <Route exact path="/mbtaCustom" element={<NewMbtaAlertsPage />} />
           <Route exact path="/busSearch" element={<BusSearch />} />
+          <Route exact path="/consensus" element={<ConsensusPage />} />
         </Routes>
       </UserContext.Provider>
     </>

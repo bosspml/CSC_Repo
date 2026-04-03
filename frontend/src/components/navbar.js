@@ -29,6 +29,7 @@ export default function Navbar() {
         <Nav.Link href="/mbtaAlerts">MBTA Alerts</Nav.Link>
         <Nav.Link href="/mbtaCustom">MBTA Custom Alerts</Nav.Link>
         <Nav.Link href="/busSearch">Bus Search</Nav.Link>
+        <Nav.Link href="/consensus">Consensus</Nav.Link>
       </Nav>
     </Container>
   </ReactNavbar>
